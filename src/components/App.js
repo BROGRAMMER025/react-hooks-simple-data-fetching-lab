@@ -1,6 +1,3 @@
-// create your App component here
-// App.js
-
 import React, { useState, useEffect } from 'react';
 
 function App() {
@@ -21,7 +18,7 @@ function App() {
     };
 
     fetchData();
-  }, []); // The empty dependency array ensures that this effect runs only once, similar to componentDidMount
+  }, []);
 
   return (
     <div>
